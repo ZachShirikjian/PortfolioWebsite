@@ -114,6 +114,7 @@ hr {
   justify-content: start;
   margin-top: 10px;
   flex-direction: row;
+  text-decoration: none;
 }
 .gameographyTable{
    /* border: 10px solid #6495ed; */
