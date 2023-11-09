@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5"> Colorpillar</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/CP.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <a type="button" href = "https://zachshirikjian.itch.io/colorpillar" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">Puzzle Platformer</td>
+              <td class = "tablerow">All</td>
+              <td class = "tablerow">1</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Colorpillar</strong> is a short 2D puzzle game which teaches people about accurate color 
+  mixing. Play as an adult caterpillar who visits their childhood home for the first time in several years. Escape from the dark caterpillar chasing
+  behind you as your time to reminisence on your childhood is limited. Progress through 
+  each room by matching your body’s color with that of the door in the room. Interact with objects, which once had significant 
+  meaning to you, causing their color to affect that of your own body. This game was my final project for the Color Dynamics class 
+  at Fitchburg State University. I wanted to create a game which used color to depict feelings of nostalgia. 
+  Colorpillar is heavily influenced by my personal experience with nostalgia, which has grown since the pandemic. 
+  Art assets of the game were created from a limited palette of seven colors一black, white, blue, purple, green, pink, and yellow一to focus on the pure hue of each color used. The simplistic art style and minimal usage of text help tell a narrative through the environment. I worked closely with Donald Tarallo to ensure the color mixtures were optically accurate, and the game would successfully
+  depict nostalgia.
+  <br><br>
+  Featured in the 2022Zselection in Donald Tarallo’s <a href="https://tarallodesign.com/context-context/2022-2/" style="color:blue; text-decoration: underline;">Context Context</a>, a 
+  collection showcasing work from his students of visual studies to encourage free thinking and broaden the scope of graphic design education.
+</div>
+
+<div class= "demoVideo">
+            <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/1aSZaYjwBt0?si=LVysnJIU7DWm2ogr"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+                  <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CP1.png" style="height:345px; width:auto"onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CP2.png" style="height:345px; width:auto" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CP3.png" style="height:345px; width:auto" onclick = "FullView(this.src)"/>
+            </div>
+</div>
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Discover the environmental narrative describing a personal experience with nostalgia.</li>
+                <li class = "list">Change your character’s color through interacting with different objects in the environment.</li>
+                <li class = "list">Experiment with color-mixtures to solve bite-sized puzzles.</li>
+            </ul>
+        </div>
+      </span>
+
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Designed a tile-based level using Unity’s Tilemap system.</li>
+              <li class = "list">Incorporated accurate color mixtures into the puzzle design.</li>
+              <li class = "list">Created art assets using a strictly-limited color palette.</li>
+              <li class="list">Conceptualized and developed an original character to use for the game.</li>
+              <li class = "list">Developed a user-friendly UI with minimal elements displayed on-screen.</li>
+            </ul> 
+        </div>
+      </span>
+          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "colorpillar.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <!-- <h3 class ="footercopyright"><span>&copy; 2023 Zach Shirikjian</span></h3> -->
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

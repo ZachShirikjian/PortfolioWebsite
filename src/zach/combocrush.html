@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">ComboCrush</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/CCCover.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <a type="button" href = "combocrushUI.html" class = "menuButton"> GAME UI</a>
+            <a type="button" href = "https://zachshirikjian.itch.io/combocrush" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">2D Action Platformer</td>
+              <td class = "tablerow">Producer, UI Designer</td>
+              <td class = "tablerow">5</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>ComboCrush</strong> is a 2D action platformer where you must perform skateboarding
+   tricks and combos, impressing your audience. Featuring a street-graffiti aesthetic inspired by 
+   Jet Set Radio and Bomb Rush Cyberfunk, ComboCrush takes players back to the early 2000s era of 
+   skateboarding. The game is divided into distinct daytime and nighttime sections, each featuring 
+   their own objective. During the day, players must simply get 1 million points, while at night, 
+   players must reach the underground tunnel and escape the level before time runs out. At both 
+   day and night, players must build up their audience’s Hype to get more points while performing tricks and combos. 
+   <br><br>
+   ComboCrush was created in 7 days for the annual Fall 2023 Game Jam at Fitchburg State University, which had the 
+   theme “Day and Night”. I collaborated with FSU Game Design alumni <a href="https://www.pgomesprojects.com/" style="color:blue; text-decoration: underline;">Peter Gomes</a> to design the Day/Night transitions. 
+   I designed the layout of the interfaces in-game, while Peter programmed and implemented their functionality in Unity. 
+   ComboCrush provided me an opportunity to create a unified street graffiti theme throughout the UI and menus. As producer,
+   mentored Izzy Cochran and Christan Surrett, providing them constructive feedback on their work and helping them manage 
+   source control using Github. 
+   <br><br>
+   Vadim Mayorskiy created the environmental art, with Character Design and Concept Art made by Izzy Cochran. Music and 
+   sound effects composed by Christian Surett. Alternative tracks for the Day level were composed by 
+   <a href="https://www.ceruleancyanide.com/" style="color:blue; text-decoration: underline;">Cerulean Cyanide</a>, and Tina Nguyen (Crow Wanderer).
+</div>
+
+<div class= "demoVideo">
+            <!-- <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4> -->
+           <!-- <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="../../assets/ZachVideos/CCGameplayTeaser.mp4"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe>  -->
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+                  <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CCSC1.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CCSC2.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CCSC3.png" onclick = "FullView(this.src)"/>
+            </div>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CCSC4.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CCSC5.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/CCSC6.png" onclick = "FullView(this.src)"/>
+            </div>
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Relive the Early 2000s era of skateboarding through street graffiti UI art!</li>
+                <li class = "list">Build up combos to perform HYPE TIME and gain a temporary point bonus!</li>
+                <li class = "list">Unique Daytime and Nighttime Gameplay Objectives!</li>
+                <li class= "list">Choose the BGM from a selection of original music composed by different artists!</li>
+                </li>
+            </ul>
+        </div>
+      </span>
+
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Created a marketing campaign inviting Artist for Humanity employees to playtest the game and be featured in the Credits.</li>
+              <li class = "list">Mentored newer Game Design students by providing feedback, encouraging them to improve their work, and assisted them with Github source control.</li>
+              <li class = "list">Designed game-ready UI assets for animations using Unity’s LeanTween systems.</li>
+              <li class = "list">Designed controller infographic UI using Figma.</li>
+            </ul>
+        </div>
+      </span>
+          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "combocrush.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <!-- <h3 class ="footercopyright"><span>&copy; 2023 Zach Shirikjian</span></h3> -->
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

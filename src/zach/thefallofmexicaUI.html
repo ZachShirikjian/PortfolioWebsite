@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButton"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButtonSelected"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">The Fall of Mexica UI</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/FOM.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <a type="button" href = "thefallofmexica.html" class = "menuButton"> GAME PAGE</a>
+            <a type="button" href = "https://zachshirikjian.itch.io/the-fall-of-mexica" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">Educational, Adventure</td>
+              <td class = "tablerow">Lead Programmer, UI Designer</td>
+              <td class = "tablerow">3</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>The Fall of Mexica</strong> is a top-down adventure game featuring a historically-accurate 
+  recreation of 16th century Mexico, taking place during the Spanish invasion of the country. Explore a portion 
+  of the capital city of Tenochtitlan as a Nahual citizen, and help prepare the welcoming ceremony for the 
+  incoming Spanish villagers. The Fall of Mexica is intended to be a small chapter part of a larger-sized game, 
+  depicting the entirety of the Spanish invasion of Mexico.​
+  <br><br>
+  This is a selection of the UI systems that I developed for The Fall of Mexica, designed in Photoshop and programmed in C#. I designed a minimap system to accurately display the position of players in the game world as they navigate the city of Tenochtitlan.
+</div>
+<div class = "gallery">
+
+  <h4 class = "h4" style="font-size:48px;">MINIMAP SYSTEM</h4>
+  <div class="galleryImages">
+        <img class = "galleryimageHorizontal" style="width:400px; height:auto" src = "../../src/zach/UI/FOMMinimap.png" onclick = "FullView(this.src)"/>
+        <img class = "galleryimageHorizontal" style="width:800px; height:auto" src = "../../src/zach/Screenshots/FOMSC4.png" onclick = "FullView(this.src)"/>
+  </div>
+  <div class = "pageparagraph">A minimap UI indicating to players where they currently are in Tenochtitlan. Icons indicate important elements/locations to the map, such as Interactive NPCs and Objective icons.
+  Pressing the <strong>F</strong> key expands the minimap to full screen, where players can view the entire section of Tenochtitlan which they can explore. A legend containing all of the icons used on the minimap with labels
+  indicating the meaning of each symbol is also included. Pressing the <strong>F</strong> key again closes out of the full-size map, and returns back to the normal minimap size. 
+  </div>
+  <h4 class = "h4">MINIMAP ICONS</h4>
+  <img class = "galleryimageHorizontal" style="width:800px; height:auto" src = "../../src/zach/UI/FOMMinimapIcons.png" onclick = "FullView(this.src)"/>
+  <h3 class= "h3" style="font-size: 20px; color:black; justify-content: center; align-items: center;">All of the minimap icons used for the map system, including the minimap and full-size map.</h3>
+
+  <div class= "demoVideo">
+    <h4 class = "h4">SEE IT IN ACTION!</h4>
+
+   <iframe
+                        ref={videoRef}
+                        width="1000px"
+                        height="500px"
+                        src="https://youtube.com/embed/OxCvLU6BQR0"
+                        title="YouTube video player"
+                        allow="encrypted-media; gyroscope;"
+                        allowFullScreen
+                    ></iframe> 
+  </div>
+
+  
+<div class="backtotop">
+  <a type="button" href = "thefallofmexicaUI.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

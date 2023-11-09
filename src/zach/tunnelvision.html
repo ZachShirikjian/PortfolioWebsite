@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">Tunnel Vision</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/TV.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <!-- <a type="button" href = "trainoutbreakUI.html" class = "menuButton"> GAME UI</a> -->
+            <a type="button" href = "https://tanner-cobb.itch.io/tunnel-vision" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">Puzzle</td>
+              <td class = "tablerow">Level Designer, UI Designer</td>
+              <td class = "tablerow">5</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Tunnel Vision</strong> is a 3D isometric puzzle game, where you blind yourself from the 
+  sight of enemies in order to reach your love interest! Players have a limited number of moves to hide themselves from enemies, 
+  before they get caught. Scale a tower of 21 floors of increasing difficulty to find your true love!
+  <br><br>
+  Tunnel Vision was developed for  <a href = "https://itch.io/jam/brackeys-2" style="color:blue;text-decoration: underline;">Brackeys Game Jam #2</a>. 
+  It was featured in the <a type="https://www.youtube.com/watch?v=XeV0bmTLacM&t=360s" style="color:blue;text-decoration: underline;">Brackeys Game Jam 2019 - BEST Games video</a>, 
+  receiving recognition from Brackeys, the host of the jam himself. I collaborated with producer Olynder Hawley to design the puzzles of the game, alongside implementing UI for 
+  indicating the floor players were currently on and the number of Blind Moves players had left. Pixel art and 3D models 
+  designed by Tanner Cobb, and music composed by Tobey-Julian Joseph.  
+  
+</div>
+
+<div class= "demoVideo">
+            <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/qk4tkIHv3l4?si=TND3RA-r0khLhtUl"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+                <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TV1.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TV2.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TVSC5.png" onclick = "FullView(this.src)"/>
+              </div>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TVSC6.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TV3.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TV4.png" onclick = "FullView(this.src)"/>
+            </div>
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Blind yourself from enemies to hide from their sight!</li>
+                <li class = "list">Scale a tower of over 20 challenging puzzles.</li>
+                <li class = "list">Movement is limited while blind, move wisely!</li>
+            </ul>
+        </div>
+        
+      </span>
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Designed tile-based level design for a 3D isometric game.</li>
+              <li class = "list">Created the layout for the Title Screen UI, including credits, art, and UI buttons.</li>
+              <li class="list">Developed a game under the restrictions of a game jam.</li>
+              <li class = "list">Assisted with brainstorming game concepts/ideas with our team.</li>
+            </ul> 
+        </div>
+      </span>          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "tunnelvision.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

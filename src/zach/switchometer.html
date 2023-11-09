@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">Switchometer</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/SO.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <!-- <a type="button" href = "trainoutbreakUI.html" class = "menuButton"> GAME UI</a> -->
+            <a type="button" href = "https://zachshirikjian.itch.io/switchometer" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC, Arcade</td>
+              <td class = "tablerow">Puzzle Platformer</td>
+              <td class = "tablerow">All</td>
+              <td class = "tablerow">1</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Switchometer</strong> is a 2D Puzzle Platformer where players must switch between Hot and Cold temperatures
+  to solve a short series of puzzles. Your temperature changes the environment - platforms melt when the temperature is hot, 
+  or freeze when the temperature is cold. 
+  <br><br>
+  The original concept was made for the 2022 Global Game Jam, an annual event where people across the globe collaborate to 
+  produce a game in merely a few days. Originally conceptualized based on the theme “Duality”, development of Switchometer 
+  occurred during April and May 2022, as I was unable to participate in the game jam. Switchometer hones in on a retro-inspired
+  pixel art style, allowing players the option to switch to a classic 4:3 ratio.
+  <br><br>
+  Switchometer was completed in 9 days for the <a href="https://itch.io/jam/fsu-gdsa-game-jam-spr22" style="text-decoration: underline; color:blue;">
+  Game Design Student Association Jam</a>, hosted by Fitchburg State University. The game was also ported to the arcade machine at the university, released as Switchometer: Arcade Edition.
+</div>
+
+<div class= "demoVideo">
+            <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/rt8k7bgyrqU?si=IfZE6rchhjCl4UQb"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+                  <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/SOSC1.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/SOSC2.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/SOSC3.png" onclick = "FullView(this.src)"/>
+            </div>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/SOSC7.jpeg" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/SOSC5.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/SOSC6.png" onclick = "FullView(this.src)"/>
+            </div>
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Freely change between Hot and Cold temperatures to solve puzzles.</li>
+                <li class = "list">Your chosen temperature affects the environment and level design.</li>
+                <li class = "list">Swap between 16:9 (HD) or a classic 4:3 ratio for a full, retro-inspired experience.</li>
+                <li class= "list">Choose between Farenheit and Celcius for displaying the Temperature degrees.</li>
+            </ul>
+        </div>
+      </span>
+
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Designed a short, polished game revolving around a singular mechanic.</li>
+              <li class = "list">Established a consistent pixel art style for the UI, character, and level assets.</li>
+              <li class = "list">Implemented a Settings Menu UI with various gameplay-changing options.</li>
+              <li class = "list">Ported a game to another system and incorporating its different control scheme.</li>
+              <li class = "list">Created a level revolving around multiple resolutions (16:9 and 4:3)</li>
+            </ul>
+        </div>
+      </span>
+          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "switchometer.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

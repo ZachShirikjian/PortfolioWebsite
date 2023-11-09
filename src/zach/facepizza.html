@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+    <div class="projectname">
+      <h5 class = "h5">Face Pizza</h5>
+      <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+      <img class = "coverImage" src="../../src/zach/Images/FP.png">
+  </div> 
+  <div class="projectinfo">
+    <div class = "gameButtons">
+      <a type="button" href = "facepizzaUI.html" class = "menuButton">GAME UI</a>
+      <a type="button" href = "https://zachshirikjian.itch.io/face-pizza" class = "menuButton"> DOWNLOAD</a>
+    </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">Snapchat (iOS/Android)</td>
+              <td class = "tablerow">Party,Microgame</td>
+              <td class = "tablerow">All</td>
+              <td class = "tablerow">1</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Face Pizza</strong> is a mobile Augmented Reality (AR) game, where you make pizzas off of your face! 
+  Inspired by the comedic, chaotic charm of games such as WarioWare and Tomodachi Life, your 
+  face is the canvas for artistic (or outrageous) creations. Make as many orders as you can 
+  within 60 seconds, using toppings which move across an assembly line. Keep playing to try 
+  to get a better score! Easily record videos of your funniest moments during gameplay through
+  the built-in lens-recording feature on Snapchat!
+  <br><br>
+  This project was developed during my summer internship as a Game Developer for
+  <a href="https://www.frontierdigital.io/" style="color:blue; text-decoration: underline;">Frontier Digital, LLC.</a> I worked with Frontier Digital founder Marcos Bueno, who served as my supervisor during the 
+  project. His experience and passion for the Mixed Reality (XR) fields helped me expand my knowledge
+  of UI/UX development with AR. We collaborated together to produce a fun AR experience unique to the 
+  Snapchat platform.       
+  <br><br>
+  A <a href="https://v975x.zappar.io/4986950740166490041/v1.1RELEASEFIX/" style="color:blue; text-decoration: underline">WebAR demo</a> of this game, which works on browsers for any PC or mobile device, was also developed. 
+</div>
+
+<div class= "demoVideo">
+            <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/uEAdAGwWiQQ?si=HlmqeoTWJ13L-z2z"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+              <img class = "galleryimageVertical" style="height:800px; width:auto;"src = "../../src/zach/Screenshots/FPSC1.png" id = "galleryImage">
+              <img class = "galleryimageVertical" style="height:800px; width:auto;"src = "../../src/zach/Screenshots/FPSC3.png">
+              <img class = "galleryimageVertical" style="height:800px; width:auto;"src = "../../src/zach/Screenshots/FPSC2.png"> 
+            </div>
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Create your own Face Filters, drawing on the screen to add sauce and cheese!</li>
+                <li class = "list">Make 3D Pizzas, with Sauce, Cheese, and Toppings contour with your face!</li>
+                <li class = "list">Experience Next-Gen UI/UX through Facial Gesture Events!</li>
+                <li class = "list">Match the randomly generated Orders, keep playing to aim for a higher score!</li>
+                <li class = "list">Easily Record and Share Videos of Gameplay with your Friends!
+                </li>
+            </ul>
+        </div>
+      </span>
+
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Composed original SFX and music using LMMS digital audio workstation (DAW). </li>
+              <li class = "list">Created animated UI buttons which change animations based on its state. </li>
+              <li class = "list">Developed a game using Snapchat’s Lens Studio engine. </li>
+              <li class = "list">Integrated Facial-Gesture Events for UI/UX interactions.</li>
+              <li class = "list">Designed UI/UX systems and assets to work with the Snapchat platform. </li>
+              <li class = "list">Tracked and documented Bugs using Agile framework software (Asana, Jira). </li>
+              <li class = "list">Performed Device Testing/Exploratory Testing across multiple mobile devices. </li>
+            </ul>
+        </div>
+      </span>
+          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "facepizza.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <!-- <h3 class ="footercopyright"><span>&copy; 2023 Zach Shirikjian</span></h3> -->
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

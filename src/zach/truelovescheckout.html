@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">True Love's Checkout</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/TLC.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <!-- <a type="button" href = "trainoutbreakUI.html" class = "menuButton"> GAME UI</a> -->
+            <a type="button" href = "https://zachshirikjian.itch.io/true-loves-checkout" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">Visual Novel</td>
+              <td class = "tablerow">Producer, Lead Programmer, UI Designer</td>
+              <td class = "tablerow">5</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>True Love's Checkout</strong> is a supermarket visual novel game taking place in Mall-Wart, 
+  which is on the verge of being shut down. Inspired by the Ace Attorney series, you must give your customers excellent service 
+  by bagging their groceries and having conversations with them afterwards. If your service is good enough and they like your 
+  responses, customers may even date you!
+
+  True Love’s Checkout was created in 11 days for the Fall 2020 Game Jam at Fitchburg State University, which had the theme 
+  “All Together Now.” I collaborated with Game Design student David Wu to program a complex dialogue system, allowing for 
+  branching dialogue paths depending on the response which players choose during conversation sections. Character art was 
+  designed by Veronica Hazen (<a href="https://www.lexitoons.com/" style="color:blue; text-decoration: underline;">LexiToons</a>),
+  a co-founder of Iconic Arts, LLP currently working on the upcoming <a href="https://www.lexitoons.com/" 
+  style="color:blue; text-decoration: underline;">Goob'N'BalloonsDX.</a>
+   Tony Tran(<a href="https://www.ceruleancyanide.com/" style="color:blue; text-decoration: underline;">PapaTeaRam</a>), also
+   contributed to the Character Design. Featuring music and sound effects by David (Sierra) O’Leary.
+  
+  
+</div>
+
+<div class= "demoVideo">
+            <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/yfybE5Acxug?si=5sXYErk-JhdKDuMf"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+                  <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TLC1.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TLC2.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TLC3.png" onclick = "FullView(this.src)"/>
+            </div>
+            <div class="galleryImages">
+            <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TLC4.png" onclick = "FullView(this.src)"/>
+            <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TLC5.png" onclick = "FullView(this.src)"/>
+            <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TLC6.png" onclick = "FullView(this.src)"/>
+          </div> 
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Receive one of 5 Different Endings, based on who you choose to date!. </li>
+                <li class = "list">Engage in quirky, humorous conversations with your customers!</li>
+                <li class = "list">Bag groceries from the comfort of your own home!</li>
+                <li class = "list">Switch between point-and-click Bagging and visual novel Conversation sections!</li>
+            </ul>
+        </div>
+      </span>
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Developed a Dialogue system with branching paths based on player responses.</li>
+              <li class = "list">Created a Extras UI menu featuring profiles of the Main Characters, and Concept Art from the game.</li>
+              <li class="list">Designed Visual Novel UI, including dialogue boxes with scrolling boxes.</li>
+            </ul> 
+        </div>
+      </span>          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "truelovescheckout.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

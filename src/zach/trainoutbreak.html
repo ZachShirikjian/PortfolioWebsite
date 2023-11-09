@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">Train Outbreak</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/TO.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <a type="button" href = "trainoutbreakUI.html" class = "menuButton"> GAME UI</a>
+            <a type="button" href = "https://zachshirikjian.itch.io/train-outbreak" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">Survival Horror</td>
+              <td class = "tablerow">UI Designer, Source Control Manager</td>
+              <td class = "tablerow">7</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Train Outbreak</strong> is a survival horror FPS where you are the sole passenger
+             of a Zenoid-infested train. Destroy all the Zenoid aliens as you progress through each train car 
+             and make it to the front of the train before the outbreak spreads to you too! 
+            <br><br>
+            Train Outbreak was developed as our senior project in the Advanced Game Workshop class at 
+            Fitchburg State University. The scope of our project exceeded the semester-long development time
+            we had, resulting in only a small prototype to be completed. Despite the short gameplay length 
+            of the prototype, the high quality, polished assets and gameplay produced by the team members 
+            makes for a realistic tech demo with an unsettling atmosphere. Train Outbreak pushed me to explore
+            deeper into UI systems with the Unity Engine, mainly the New Input System. I developed the 
+            Jukebox shop user interface, where players can purchase upgrades or refill their health and 
+            ammunition at the end of each level.    
+</div>
+
+<!-- <div class= "demoVideo">
+            <h4 class = "h4"> WATCH A GAMEPLAY DEMO </h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/uEAdAGwWiQQ?si=HlmqeoTWJ13L-z2z"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div> -->
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+                  <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TOSC1.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TOSC2.png" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TOSC3.png" onclick = "FullView(this.src)"/>
+            </div>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TOSC4.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TOTitle.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" src = "../../src/zach/Screenshots/TOJukebox.png" onclick = "FullView(this.src)"/>
+            </div>
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Navigate the corridor-based train cars between each level! </li>
+                <li class = "list">Upgrade your ammunition and health through the Jukeboxes.</li>
+                <li class = "list">Your pistol is your only weapon, use your bullets wisely.</li>
+                </li>
+            </ul>
+        </div>
+      </span>
+
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Implemented Gamepad and Keyboard control schemes which players can use for the game.</li>
+              <li class = "list">Managed and supervised the source control of the project, ensuring each team member’s branch merged correctly into the main branch.                  </li>
+              <li class = "list">Programmed the Jukebox UI system using the EventSystem and New Input System in Unity.</li>
+              <li class = "list">Integrated a fading in/fading out system for the door audio between each level.</li>
+              <li class = "list">Designed modular UI art assets to be animated and used by the Programmers. </li>
+            </ul>
+        </div>
+      </span>
+          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "trainoutbreak.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

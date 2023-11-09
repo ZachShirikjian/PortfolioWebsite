@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButton"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButtonSelected"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">Train Outbreak UI</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/TO.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+            <a type="button" href = "trainoutbreak.html" class = "menuButton"> GAME PAGE</a>
+            <a type="button" href = "https://zachshirikjian.itch.io/train-outbreak" class = "menuButton"> DOWNLOAD</a>
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">Survival Horror</td>
+              <td class = "tablerow">UI Designer, Source Control Manager</td>
+              <td class = "tablerow">7</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Train Outbreak</strong> is a survival horror FPS where you are the sole passenger
+  of a Zenoid-infested train. Destroy all the Zenoid aliens as you progress through each train car 
+  and make it to the front of the train before the outbreak spreads to you too! 
+   <br><br>
+   This is a selection of the UI systems that I developed for Train Outbreak, programmed in C# and designed in Photoshop. I designed the Jukebox shop interface and programmed its functionality, as 
+   well as explored the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html" style="text-decoration: underline; color:blue">New Input System</a> to allow gamepad support for navigating menus.
+</div>
+<div class = "gallery">
+            <h4 class = "h4" style="font-size:48px;">JUKEBOX SHOP INTERFACE</h4>
+            <div class="galleryImages">
+                  <img class = "galleryimageHorizontal" style="width:600px; height:auto;" src = "../../src/zach/Screenshots/TOJukebox.png" onclick = "FullView(this.src)"/>
+                  <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/TOJukebox2.png" onclick = "FullView(this.src)"/>
+                  <img class = "galleryimageHorizontal" style="width:600px; height:auto;" src = "../../src/zach/Screenshots/TOJukebox3.png" onclick = "FullView(this.src)"/>
+
+            </div>
+            <div class = "pageparagraph">The interface for the Jukebox found at the end of each level. Players can choose to replenish and/or upgrade their health and ammo capacity.
+              Players can only upgrade once per jukebox they encounter, provided they have enough coins to do so. The New Input System was integrated into this menu, allowing
+              players to navigate and select between the different options using a gamepad or a keyboard and mouse.
+            </div>
+            <div class= "demoVideo">
+              <h4 class = "h4">SEE IT IN ACTION!</h4>
+             <iframe
+                                  ref={videoRef}
+                                  width="1000px"
+                                  height="500px"
+                                  src="https://youtube.com/embed/5gM5TZQF7m8"
+                                  title="YouTube video player"
+                                  allow="encrypted-media; gyroscope;"
+                                  allowFullScreen
+                              ></iframe> 
+            </div>
+
+            <h4 class = "h4" style="font-size:48px;">AMMO CYLINDER</h4>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_6.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_5.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_4.png" onclick = "FullView(this.src)"/>
+            </div>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_3.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_2.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_1.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:300px; height:auto;" src = "../../src/zach/UI/TO_AmmoCylinderUI_NoBullets.png" onclick = "FullView(this.src)"/>
+            </div>
+            <div class = "pageparagraph">HUD element indicating the amount of bullets players have left in their pistol. The UI consists of mutiple bullet images layered on top of an empty ammo cylinder 
+              image as the background. Each time players fire a bullet, that particular bullet image gets removed, switching the current Animation state and updating the UI. Whenever the player reloads, the amount of ammo which
+              they can fire gets reduced by 2. Designed in Photoshop and Illustrator, and programmed with C# in Unity.
+            </div>
+            <div class= "demoVideo">
+              <h4 class = "h4">SEE IT IN ACTION!</h4>
+              <h4 class = "h3" style="font-style: italic; color: black;">(Video taken from an earlier build of the project.)</h3>
+             <iframe
+                                  ref={videoRef}
+                                  width="1000px"
+                                  height="500px"
+                                  src="https://youtube.com/embed/8LfDoNPGrQg"
+                                  title="YouTube video player"
+                                  allow="encrypted-media; gyroscope;"
+                                  allowFullScreen
+                              ></iframe> 
+            </div>
+
+            <h4 class = "h4" style="font-size:48px;">PAUSE MENU</h4>
+            <div class="galleryImages">
+              <img class = "galleryimageVertical" src = "../../src/zach/UI/TO_PauseUI.png" onclick = "FullView(this.src)"/>
+              <div class="galleryImages" style="flex-direction: column; margin-left: 50px; margin-right: 50px">
+                <img class = "galleryimageHorizontal" src = "../../src/zach/UI/TO_PauseMenu.gif" onclick = "FullView(this.src)"/>
+                <img class = "galleryimageHorizontal" src = "../../src/zach/UI/TO_QuitMenu.gif" onclick = "FullView(this.src)"/>
+              </div>
+            </div>
+            <div class = "pageparagraph">The Pause Menu UI which appears on screen whenever players pause the game. Its functionality was programmed in C#, and animated implemented using the built-in Animator component in Unity.
+            </div>
+
+            <h4 class = "h4" style="font-size:48px;">CONTROLS INFOGRAPHIC</h4>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" style="width:800px; height:auto" src = "../../src/zach/UI/TOControllerInfographic.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:800px; height:auto"src = "../../src/zach/UI/TOKeyboardInfographic.png" onclick = "FullView(this.src)"/>
+              </div>
+            </div>
+            <div class = "pageparagraph">Infographic showing the controls of the game, for both the Keyboard & Mouse and Gamepad control schemes. 
+              The Controls infographic appears when the player selects the Controls button in the Pause Menu or Title Screen. Assets designed in Photoshop, and programmed with C# in Unity.
+            </div>
+            <div class= "demoVideo">
+              <h4 class = "h4">SEE IT IN ACTION!</h4>
+             <iframe
+                                  ref={videoRef}
+                                  width="1000px"
+                                  height="500px"
+                                  src="https://youtube.com/embed/Big4GYR_768"
+                                  title="YouTube video player"
+                                  allow="encrypted-media; gyroscope;"
+                                  allowFullScreen
+                              ></iframe> 
+            </div>
+
+</div>
+<div class="backtotop">
+  <a type="button" href = "trainoutbreakUI.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>

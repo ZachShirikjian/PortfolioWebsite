@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./zach styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <div class= "bannercontent"> 
+      <img class = "logoimage" src="../../src/zach/Images/ZachShirikjianBranding2.png">
+      <div>
+        <h1 class="h1"> Zach Shirikjian</h1>
+        <h2 class="h2"> Game Developer, UI/UX Designer </h2>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class = "buttons">
+      <a type="button" href = "home.html" class = "menuButtonSelected"> GAME PROJECTS </a>
+      <a type="button" href = "uiprojects.html" class = "menuButton"> UI DESIGN </a>
+      <a type="button" href = "graphicdesign.html" class = "menuButton"> GRAPHIC DESIGN </a>
+      <a type="button" href = "about.html" class = "menuButton"> ABOUT ME </a>
+  </div>
+
+  <div class ="projectoverview">
+         <div class="projectname">
+            <h5 class = "h5">Journey Through The Mind</h5>
+            <!-- <h4 class = "h4"> Advanced Game Workshop Project (2022)</h4> -->
+            <img class = "coverImage" src="../../src/zach/Images/JTTM.png">
+        </div> 
+        <div class="projectinfo">
+          <div class = "gameButtons">
+          </div>
+            <table class = "projectTable">
+              <tr>
+                <th class = "tablecol">STATUS</th>
+                <th class = "tablecol">PLATFORM</th>
+                <th class = "tablecol">GENRE</th>
+                <th class = "tablecol">ROLES</th>
+                <th class = "tablecol">TEAM SIZE</th>
+              </tr>
+            <tr>
+              <td class = "tablerow">Complete</td>
+              <td class = "tablerow">PC</td>
+              <td class = "tablerow">3D Platformer</td>
+              <td class = "tablerow">All</td>
+              <td class = "tablerow">1</td>
+            </tr>
+          </table>
+          </div>  
+        </div>
+
+   </div>
+        
+<div class = "pageparagraph"><strong>Journey Through The Mind</strong> is a 3D Platformer level created in Unreal Engine 4.
+Players are placed inside the mind of Mint, as they experience the Main Character’s memories between their 
+birth and their death. Each individual section of the level represents a specific event from Mint's life. 
+The difficulty of the level design reflects the emotional state of Mint, where later sections are more difficult to 
+signify them fighting off a terminal illness. Journey Through The Mind uses environmental 
+storytelling to tell an emotional tragedy which the Main Character experienced, and does not feature any dialogue, cutscenes, or UI elements.​  
+<br><br>
+Exploration and platforming sections are used to drive the narrative forward. The exploration sections are linearly designed, 
+while allowing players to stop and look around their surroundings to piece together the story of how the Main Character passed away. 
+The platforming sections are incorporated to keep players moving forward throughout the level. Journey Through the Mind’s linear level 
+design reminds us that despite our ability to look back at the past and our memories, we must continue forward with our lives, no matter how difficult that is.
+<br><br> 
+Journey Through the Mind was developed for the Level Design final project at Fitchburg State University. Developed during the beginning of the COVID-19 pandemic,
+themes of nostalgia, tragedy, and grief are explored in the environmental narrative. 
+</div>
+
+<div class= "demoVideo">
+            <h4 class = "h4"> WATCH THE LEVEL IN-ACTION!</h4>
+           <iframe
+                                ref={videoRef}
+                                width="1000px"
+                                height="510px"
+                                src="https://www.youtube.com/embed/Ary7hAsFbHM?si=y6bycj4f3s2b_MAs"
+                                title="YouTube video player"
+                                allow=" autoplay;  encrypted-media; gyroscope;"
+                                allowFullScreen
+                            ></iframe> 
+</div>
+<div class = "gallery">
+            <h4 class = "h4">GALLERY</h4>
+            <div class="galleryImages">
+              <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/JTTM1.png" onclick = "FullView(this.src)"/>
+              <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/JTTM2.png" onclick = "FullView(this.src)"/>
+          </div>
+          <div class="galleryImages">
+            <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/JTTM3.png" onclick = "FullView(this.src)"/>
+            <img class = "galleryimageHorizontal" style="width:600px; height:auto;"src = "../../src/zach/Screenshots/JTTM4.png" onclick = "FullView(this.src)"/>
+        </div>
+</div>
+
+<div class = "reflection">
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> UNIQUE FEATURES </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+                <li class = "list">Experience an abstracted, realistic depiction of a person’s lifespan.</li>
+                <li class = "list">Fully immerse yourself in the level design and environmental storytelling, no dialogue or cutscenes are featured</li>
+                <li class = "list">Discover how the difficulty in the level reflects the  emotional state in the character’s life.</li>
+                <li class = "list">Enemies not defeated in a Wave carry over to the next Wave.</li>
+            </ul>
+        </div>
+      </span>
+      <span>
+        <h4 class = "pageheader" style="padding-left:50px"> WHAT I LEARNED </h4>
+        <div style = "width: 1780px;background-color: cornflowerblue; padding: 5 60px; margin-bottom: 40px;">
+            <ul>
+              <li class = "list">Developed a fully playable 3D Platformer level using Unreal Engine 4.</li>
+              <li class = "list">Integrated level streaming to partially load sections of the level at a time.</li>
+              <li class="list">Designed a level revolving around environmental storytelling.</li>
+              <li class = "list">Implemented music into Unreal Engine 4.</li>
+            </ul> 
+        </div>
+      </span>          
+</div>
+
+<div class="backtotop">
+  <a type="button" href = "journeythroughthemind.html" class = "menuButton">BACK TO TOP</a>
+</div>
+           
+</body>
+
+<footer>
+  <div class="footer">
+    <img src="../../src/zach/Images/WIIFOOTERFINAL.png">
+    <div class = "socialimages" style="margin-bottom: 0;">
+      <a href="mailto: zshirikjian@gmail.com">
+        <img class = "socialimage" src = "../../src/zach/Images/email.png">
+      </a>
+      <a href="https://www.linkedin.com/in/zach-shirikjian/">
+          <img class = "socialimage" src = "../../src/zach/Images/linkedin.png">
+      </a>
+      <a href="https://zachshirikjian.itch.io/">
+            <img class = "socialimage" src = "../../src/zach/Images/itch.png">
+      </a>
+      <a href="https://discordapp.com/users/258416477709795329">
+            <img class = "socialimage" src = "../../src/zach/Images/discord.png">
+      </a>
+      <a href ="https://www.youtube.com/channel/UCSETwpp_BvwDPh_CUJxyGcQ"> 
+            <img  class = "socialimage" src = "../../src/zach/Images/YT.png"> 
+      </a>
+    </div>
+  </div>
+  <div class="footerbottom"></div>
+</footer>
+</html>
